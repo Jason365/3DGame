@@ -631,3 +631,1599 @@ LogInit: Object subsystem initialized
 [2018.10.15-02.03.12:861][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.10.15-02.03.13:428][703]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMap1E94526D463AD6A0E077E79E3C7F1B5A.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2018.10.15-02.03.13:486][703]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.620
+[2018.10.15-02.03.38:328][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.10.58:958][229]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx)
+[2018.10.15-02.10.59:012][229]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx
+[2018.10.15-02.10.59:022][229]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.11.12:005][229]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.11.12:478][229]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.11.12:505][229]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.15-02.11.12:505][229]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.15-02.11.12:505][229]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.15-02.11.12:505][229]LogFbx: Warning: Triangulating static mesh Plane
+[2018.10.15-02.11.12:552][229]LogStaticMesh: Building static mesh Scarf...
+[2018.10.15-02.11.12:584][229]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.12.58:344][260]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.12.59:977][327]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.13.01:748][465]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx)
+[2018.10.15-02.13.01:762][465]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx
+[2018.10.15-02.13.01:767][465]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.13.05:745][465]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.13.05:782][465]LogFbx: =================================================
+[2018.10.15-02.13.05:782][465]LogFbx: Dumping Node START [Plane] 
+[2018.10.15-02.13.05:782][465]LogFbx: 	Total Deformer Count 197379264.
+[2018.10.15-02.13.05:782][465]LogFbx: 	Attribute (Plane) Type (4).
+[2018.10.15-02.13.05:782][465]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2018.10.15-02.13.05:782][465]LogFbx: Dumping Node END [Plane]
+[2018.10.15-02.13.05:783][465]LogFbx: =================================================
+[2018.10.15-02.13.05:783][465]LogFbx: Dumping Node START [Plane] 
+[2018.10.15-02.13.05:783][465]LogFbx: 	Total Deformer Count 197379264.
+[2018.10.15-02.13.05:783][465]LogFbx: 	Attribute (Plane) Type (4).
+[2018.10.15-02.13.05:783][465]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2018.10.15-02.13.05:783][465]LogFbx: Dumping Node END [Plane]
+[2018.10.15-02.13.05:797][465]LogMaterial: Warning: Material /Game/Geometry/Meshes/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.13.05:799][465]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.13.05:828][465]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.13.05:855][465]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.13.05:855][465]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.13.05:855][465]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.13.05:855][465]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.13.05:855][465]LogFbx: Triangulating skeletal mesh Plane
+[2018.10.15-02.13.05:892][465]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.10.15-02.13.05:901][465]LogSkeletalMesh: Section 0: 343 vertices, 1 active bones
+[2018.10.15-02.13.05:901][465]LogSkeletalMesh: Section 0: Material=0, 376 triangles
+[2018.10.15-02.13.05:901][465]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.13.05:902][465]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.13.05:905][465]LogLinker: Can't find file '/Game/Geometry/Meshes/Scarf_Skeleton'
+[2018.10.15-02.13.05:905][465]LogLinker: Can't find file '/Game/Geometry/Meshes/Scarf_Skeleton'
+[2018.10.15-02.13.05:911][465]LogLinker: Can't find file '/Game/Geometry/Meshes/Scarf_PhysicsAsset'
+[2018.10.15-02.13.05:911][465]LogLinker: Can't find file '/Game/Geometry/Meshes/Scarf_PhysicsAsset'
+[2018.10.15-02.13.05:923][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.13.05:931][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.13.06:232][465]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.13.06:233][465]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.13.06:239][465]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.10.15-02.13.06:239][465]FBXImport: Warning: The bone size is too small to create Physics Asset 'Scarf_PhysicsAsset' from Skeletal Mesh 'Scarf'. You will have to create physics asset manually. 
+[2018.10.15-02.13.06:240][465]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.13.06:240][465]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.13.09:632][691]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-02.13.10:331][739]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-02.13.19:796][543]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2018.10.15-02.13.22:109][543]LogSlate: Window 'New Physics Asset' being destroyed
+[2018.10.15-02.13.22:181][543]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.13.22:241][543]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.13.24:833][543]LogSlate: Window 'Message' being destroyed
+[2018.10.15-02.13.31:517][250]Cmd: DELETE
+[2018.10.15-02.13.31:517][250]Cmd: ACTOR DELETE
+[2018.10.15-02.13.31:519][250]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-02.13.31:547][250]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.10.15-02.13.32:386][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.13.35:183][498]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.13.37:031][649]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx)
+[2018.10.15-02.13.37:047][649]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx
+[2018.10.15-02.13.37:052][649]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.13.40:526][649]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.13.40:588][649]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.13.40:605][649]LogFbx: Warning: Triangulating static mesh Plane
+[2018.10.15-02.13.40:652][649]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.15-02.13.40:652][649]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.15-02.13.40:652][649]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.15-02.13.40:656][649]LogStaticMesh: Building static mesh Scarf...
+[2018.10.15-02.13.40:680][649]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.13.43:256][879]Cmd: TRANSACTION UNDO
+[2018.10.15-02.13.43:256][879]LogEditorTransaction: Undo Edit Import Uniform Scale
+[2018.10.15-02.13.46:554][ 96]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.13.48:254][229]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx)
+[2018.10.15-02.13.48:267][229]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx
+[2018.10.15-02.13.48:273][229]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.13.54:022][229]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.13.54:056][229]LogFbx: =================================================
+[2018.10.15-02.13.54:056][229]LogFbx: Dumping Node START [Plane] 
+[2018.10.15-02.13.54:056][229]LogFbx: 	Total Deformer Count -2121296720.
+[2018.10.15-02.13.54:056][229]LogFbx: 	Attribute (Plane) Type (4).
+[2018.10.15-02.13.54:056][229]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2018.10.15-02.13.54:056][229]LogFbx: Dumping Node END [Plane]
+[2018.10.15-02.13.54:056][229]LogFbx: =================================================
+[2018.10.15-02.13.54:056][229]LogFbx: Dumping Node START [Plane] 
+[2018.10.15-02.13.54:056][229]LogFbx: 	Total Deformer Count -2121296720.
+[2018.10.15-02.13.54:056][229]LogFbx: 	Attribute (Plane) Type (4).
+[2018.10.15-02.13.54:056][229]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2018.10.15-02.13.54:056][229]LogFbx: Dumping Node END [Plane]
+[2018.10.15-02.13.54:058][229]LogMaterial: Warning: Material /Game/Geometry/Meshes/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.13.54:059][229]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.13.54:087][229]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.13.54:087][229]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.13.54:087][229]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.13.54:087][229]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.13.54:087][229]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.13.54:111][229]LogFbx: Triangulating skeletal mesh Plane
+[2018.10.15-02.13.54:154][229]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.10.15-02.13.54:170][229]LogSkeletalMesh: Section 0: 343 vertices, 1 active bones
+[2018.10.15-02.13.54:170][229]LogSkeletalMesh: Section 0: Material=0, 376 triangles
+[2018.10.15-02.13.54:171][229]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.13.54:172][229]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.13.54:184][229]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.13.54:194][229]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.13.54:492][229]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.13.54:492][229]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.13.54:502][229]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.10.15-02.13.54:502][229]FBXImport: Warning: The bone size is too small to create Physics Asset 'Scarf_PhysicsAsset' from Skeletal Mesh 'Scarf'. You will have to create physics asset manually. 
+[2018.10.15-02.13.54:503][229]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.13.54:504][229]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.13.56:880][385]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.13.57:448][427]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.13.57:601][440]Cmd: DELETE
+[2018.10.15-02.13.57:601][440]Cmd: ACTOR DELETE
+[2018.10.15-02.13.57:604][440]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-02.13.57:641][440]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.15-02.13.58:003][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.13.58:647][501]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.13.59:283][535]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.13.59:560][561]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-02.14.01:706][710]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-02.14.04:510][836]LogSlate: Window 'New Physics Asset' being destroyed
+[2018.10.15-02.14.04:579][836]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.14.04:649][836]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_12:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.14.06:157][836]LogSlate: Window 'Message' being destroyed
+[2018.10.15-02.14.08:302][ 70]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.14.08:309][ 70]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.15-02.14.08:598][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.15-02.14.08:604][ 70]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.10.15-02.14.08:937][ 70]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.10.15-02.14.08:939][ 71]LogRenderer: Reallocating scene render targets to support 1240x888 Format 10 NumSamples 1 (Frame:1).
+[2018.10.15-02.14.10:478][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.14.15:535][648]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.14.16:885][741]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx)
+[2018.10.15-02.14.16:898][741]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Scarf.fbx
+[2018.10.15-02.14.16:903][741]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.14.25:162][741]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.14.25:220][741]LogFbx: =================================================
+[2018.10.15-02.14.25:220][741]LogFbx: Dumping Node START [Plane] 
+[2018.10.15-02.14.25:220][741]LogFbx: 	Total Deformer Count 1356618464.
+[2018.10.15-02.14.25:220][741]LogFbx: 	Attribute (Plane) Type (4).
+[2018.10.15-02.14.25:220][741]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2018.10.15-02.14.25:220][741]LogFbx: Dumping Node END [Plane]
+[2018.10.15-02.14.25:220][741]LogFbx: =================================================
+[2018.10.15-02.14.25:220][741]LogFbx: Dumping Node START [Plane] 
+[2018.10.15-02.14.25:220][741]LogFbx: 	Total Deformer Count 1356618464.
+[2018.10.15-02.14.25:220][741]LogFbx: 	Attribute (Plane) Type (4).
+[2018.10.15-02.14.25:220][741]LogFbx: 		[Node Attribute Child 1] Plane (Type Mesh).
+[2018.10.15-02.14.25:220][741]LogFbx: Dumping Node END [Plane]
+[2018.10.15-02.14.25:222][741]LogMaterial: Warning: Material /Game/Geometry/Meshes/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.14.25:224][741]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.14.25:251][741]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.14.25:280][741]LogFbx: Triangulating skeletal mesh Plane
+[2018.10.15-02.14.25:319][741]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.14.25:319][741]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.14.25:319][741]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.14.25:319][741]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.14.25:319][741]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.10.15-02.14.25:325][741]LogSkeletalMesh: Section 0: 343 vertices, 1 active bones
+[2018.10.15-02.14.25:326][741]LogSkeletalMesh: Section 0: Material=0, 376 triangles
+[2018.10.15-02.14.25:327][741]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.14.25:327][741]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.14.25:337][741]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.14.25:343][741]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_15:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.14.25:650][741]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.14.25:652][741]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.14.25:660][741]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.10.15-02.14.25:660][741]FBXImport: Warning: The bone size is too small to create Physics Asset 'Scarf_PhysicsAsset' from Skeletal Mesh 'Scarf'. You will have to create physics asset manually. 
+[2018.10.15-02.14.25:661][741]LogSkeletalMesh: Building Skeletal Mesh Scarf...
+[2018.10.15-02.14.25:661][741]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.14.27:773][908]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Geometry/Meshes/Scarf.Scarf
+[2018.10.15-02.14.27:783][908]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.15-02.14.29:068][985]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-02.14.29:937][ 81]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-02.14.34:837][616]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Geometry/Meshes/Scarf_Skeleton.Scarf_Skeleton
+[2018.10.15-02.14.34:843][616]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.15-02.14.52:634][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.14.57:734][  6]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.15.23:503][221]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMap_Auto270D2F7AF46A7EC0E943328973EDBC219.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.10.15-02.15.23:512][221]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.190
+[2018.10.15-02.15.23:512][221]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2018.10.15-02.17.22:814][ 60]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx)
+[2018.10.15-02.17.22:833][ 60]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx
+[2018.10.15-02.17.22:853][ 60]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.17.29:698][ 60]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.17.29:732][ 60]LogFbx: =================================================
+[2018.10.15-02.17.29:732][ 60]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.29:732][ 60]LogFbx: 	Total Deformer Count -1934585728.
+[2018.10.15-02.17.29:732][ 60]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.29:732][ 60]LogFbx: =================================================
+[2018.10.15-02.17.29:732][ 60]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.29:732][ 60]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.29:732][ 60]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.29:733][ 60]LogFbx: =================================================
+[2018.10.15-02.17.29:733][ 60]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.29:733][ 60]LogFbx: 	Total Deformer Count -1934585728.
+[2018.10.15-02.17.29:733][ 60]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.29:733][ 60]LogFbx: =================================================
+[2018.10.15-02.17.29:733][ 60]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.29:733][ 60]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.29:733][ 60]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.29:734][ 60]LogFbx: Valid bind pose for Pose (Icosphere) - Player_Mesh
+[2018.10.15-02.17.29:736][ 60]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.17.29:738][ 60]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.17.29:764][ 60]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.17.29:764][ 60]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.17.29:764][ 60]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.17.29:764][ 60]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.17.29:770][ 60]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.17.29:806][ 60]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.17.29:808][ 60]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.17.29:851][ 60]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.17.29:935][ 60]LogFbx: Triangulating skeletal mesh Player_Mesh
+[2018.10.15-02.17.30:142][ 60]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2018.10.15-02.17.30:221][ 60]LogSkeletalMesh: Section 0: 918 vertices, 11 active bones
+[2018.10.15-02.17.30:221][ 60]LogSkeletalMesh: Section 1: 496 vertices, 1 active bones
+[2018.10.15-02.17.30:222][ 60]LogSkeletalMesh: Section 0: Material=0, 1204 triangles
+[2018.10.15-02.17.30:222][ 60]LogSkeletalMesh: Section 1: Material=1, 640 triangles
+[2018.10.15-02.17.30:222][ 60]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.30:224][ 60]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.30:231][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Skeleton'
+[2018.10.15-02.17.30:232][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Skeleton'
+[2018.10.15-02.17.30:242][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset'
+[2018.10.15-02.17.30:243][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset'
+[2018.10.15-02.17.30:256][ 60]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_18:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.17.30:270][ 60]LogFbx: =================================================
+[2018.10.15-02.17.30:270][ 60]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.30:270][ 60]LogFbx: 	Total Deformer Count -2120819584.
+[2018.10.15-02.17.30:270][ 60]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.30:270][ 60]LogFbx: =================================================
+[2018.10.15-02.17.30:270][ 60]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.30:271][ 60]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.30:271][ 60]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.30:272][ 60]LogFbx: =================================================
+[2018.10.15-02.17.30:272][ 60]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.30:272][ 60]LogFbx: 	Total Deformer Count -2120819584.
+[2018.10.15-02.17.30:272][ 60]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.30:272][ 60]LogFbx: =================================================
+[2018.10.15-02.17.30:272][ 60]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.30:272][ 60]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.30:272][ 60]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.30:272][ 60]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.17.30:272][ 60]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.17.30:272][ 60]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.17.30:272][ 60]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.17.30:272][ 60]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.17.30:273][ 60]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.17.30:274][ 60]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.17.30:275][ 60]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.17.30:278][ 60]LogFbx: Parsing AnimStack Player_Arma|DefaultAnim
+[2018.10.15-02.17.30:292][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim'
+[2018.10.15-02.17.30:292][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim'
+[2018.10.15-02.17.30:377][ 60]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim.ScarfBoy_Anim_Player_Arma_DefaultAnim
+[2018.10.15-02.17.30:378][ 60]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ScarfBoy_Anim_Player_Arma_DefaultAnim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.17.30:387][ 60]LogFbx: Parsing AnimStack Player_Arma|P_Walk
+[2018.10.15-02.17.30:391][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk'
+[2018.10.15-02.17.30:391][ 60]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk'
+[2018.10.15-02.17.30:462][ 60]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk.ScarfBoy_Anim_Player_Arma_P_Walk
+[2018.10.15-02.17.30:462][ 60]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ScarfBoy_Anim_Player_Arma_P_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.17.30:474][ 60]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.30:477][ 60]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.30:499][ 60]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.30:501][ 60]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.33:558][246]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.10.15-02.17.34:253][300]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.15-02.17.35:362][393]Cmd: TRANSACTION UNDO
+[2018.10.15-02.17.35:362][393]LogEditorTransaction: Undo Create Actors
+[2018.10.15-02.17.35:457][393]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.15-02.17.35:457][393]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.15-02.17.36:399][461]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.15-02.17.36:534][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.17.37:948][560]Cmd: TRANSACTION UNDO
+[2018.10.15-02.17.37:948][560]LogEditorTransaction: Undo Create Actors
+[2018.10.15-02.17.38:779][626]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.15-02.17.38:804][628]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.17.38:863][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.17.39:809][694]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.17.40:286][729]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.17.41:680][740]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.17.42:732][740]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-02.17.42:732][740]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.17.43:236][740]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-02.17.44:024][740]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.44:027][740]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.44:034][740]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.44:039][740]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.44:046][740]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.44:049][740]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.44:056][740]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.44:059][740]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.46:683][852]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx)
+[2018.10.15-02.17.46:701][852]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx
+[2018.10.15-02.17.46:720][852]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.17.49:858][852]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.17.49:894][852]LogFbx: =================================================
+[2018.10.15-02.17.49:894][852]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.49:894][852]LogFbx: 	Total Deformer Count 1911130112.
+[2018.10.15-02.17.49:894][852]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.49:894][852]LogFbx: =================================================
+[2018.10.15-02.17.49:894][852]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.49:894][852]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.49:894][852]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.49:894][852]LogFbx: =================================================
+[2018.10.15-02.17.49:894][852]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.49:894][852]LogFbx: 	Total Deformer Count 1911130112.
+[2018.10.15-02.17.49:894][852]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.49:894][852]LogFbx: =================================================
+[2018.10.15-02.17.49:894][852]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.49:894][852]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.49:894][852]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.49:894][852]LogFbx: Valid bind pose for Pose (Icosphere) - Player_Mesh
+[2018.10.15-02.17.49:896][852]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.17.49:898][852]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.17.49:928][852]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.17.49:961][852]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.17.49:961][852]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.17.49:961][852]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.17.49:961][852]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.17.49:961][852]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.17.49:963][852]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.17.49:999][852]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.17.50:043][852]LogFbx: Triangulating skeletal mesh Player_Mesh
+[2018.10.15-02.17.50:275][852]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2018.10.15-02.17.50:357][852]LogSkeletalMesh: Section 0: 918 vertices, 11 active bones
+[2018.10.15-02.17.50:357][852]LogSkeletalMesh: Section 1: 496 vertices, 1 active bones
+[2018.10.15-02.17.50:358][852]LogSkeletalMesh: Section 0: Material=0, 1204 triangles
+[2018.10.15-02.17.50:358][852]LogSkeletalMesh: Section 1: Material=1, 640 triangles
+[2018.10.15-02.17.50:359][852]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.50:364][852]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.50:381][852]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_22:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.17.50:398][852]LogFbx: =================================================
+[2018.10.15-02.17.50:398][852]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.50:398][852]LogFbx: 	Total Deformer Count 1912689856.
+[2018.10.15-02.17.50:398][852]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.50:398][852]LogFbx: =================================================
+[2018.10.15-02.17.50:398][852]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.50:398][852]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.50:398][852]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.50:399][852]LogFbx: =================================================
+[2018.10.15-02.17.50:399][852]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.17.50:399][852]LogFbx: 	Total Deformer Count 1912689856.
+[2018.10.15-02.17.50:399][852]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.17.50:399][852]LogFbx: =================================================
+[2018.10.15-02.17.50:399][852]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.17.50:399][852]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.17.50:399][852]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.17.50:399][852]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.17.50:399][852]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.17.50:399][852]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.17.50:399][852]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.17.50:399][852]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.17.50:399][852]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.17.50:400][852]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.17.50:401][852]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.17.50:404][852]LogFbx: Parsing AnimStack Player_Arma|DefaultAnim
+[2018.10.15-02.17.50:513][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim.ScarfBoy_Anim_Player_Arma_DefaultAnim
+[2018.10.15-02.17.50:513][852]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ScarfBoy_Anim_Player_Arma_DefaultAnim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.17.50:515][852]LogFbx: Parsing AnimStack Player_Arma|P_Walk
+[2018.10.15-02.17.50:604][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk.ScarfBoy_Anim_Player_Arma_P_Walk
+[2018.10.15-02.17.50:604][852]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ScarfBoy_Anim_Player_Arma_P_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.17.50:607][852]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.50:609][852]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.50:632][852]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.50:638][852]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.52:777][994]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.15-02.17.53:535][ 53]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.15-02.17.53:763][ 72]Cmd: DELETE
+[2018.10.15-02.17.53:763][ 72]Cmd: ACTOR DELETE
+[2018.10.15-02.17.53:766][ 72]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-02.17.53:804][ 72]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.10.15-02.17.54:442][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.17.55:064][162]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.17.55:165][169]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.17.56:334][200]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.17.57:421][200]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.17.57:604][200]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-02.17.57:867][200]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.17.58:225][200]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.58:228][200]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.58:236][200]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.58:239][200]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.58:246][200]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.58:249][200]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.58:256][200]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.17.58:260][200]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.17.58:994][200]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-02.18.00:950][314]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx)
+[2018.10.15-02.18.00:971][314]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx
+[2018.10.15-02.18.01:000][314]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.18.06:478][314]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.18.06:521][314]LogFbx: =================================================
+[2018.10.15-02.18.06:521][314]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.06:521][314]LogFbx: 	Total Deformer Count -1976843648.
+[2018.10.15-02.18.06:521][314]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.06:521][314]LogFbx: =================================================
+[2018.10.15-02.18.06:521][314]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.06:521][314]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.06:521][314]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.06:522][314]LogFbx: =================================================
+[2018.10.15-02.18.06:522][314]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.06:522][314]LogFbx: 	Total Deformer Count -1976843648.
+[2018.10.15-02.18.06:522][314]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.06:522][314]LogFbx: =================================================
+[2018.10.15-02.18.06:522][314]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.06:522][314]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.06:522][314]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.06:522][314]LogFbx: Valid bind pose for Pose (Icosphere) - Player_Mesh
+[2018.10.15-02.18.06:524][314]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.18.06:526][314]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.18.06:556][314]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.18.06:580][314]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.18.06:580][314]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.18.06:580][314]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.18.06:580][314]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.18.06:580][314]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.18.06:581][314]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.18.06:619][314]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.18.06:673][314]LogFbx: Triangulating skeletal mesh Player_Mesh
+[2018.10.15-02.18.06:893][314]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2018.10.15-02.18.06:977][314]LogSkeletalMesh: Section 0: 918 vertices, 11 active bones
+[2018.10.15-02.18.06:977][314]LogSkeletalMesh: Section 1: 496 vertices, 1 active bones
+[2018.10.15-02.18.06:977][314]LogSkeletalMesh: Section 0: Material=0, 1204 triangles
+[2018.10.15-02.18.06:977][314]LogSkeletalMesh: Section 1: Material=1, 640 triangles
+[2018.10.15-02.18.06:978][314]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.06:980][314]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.06:995][314]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_24:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.18.07:009][314]LogFbx: =================================================
+[2018.10.15-02.18.07:009][314]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.07:009][314]LogFbx: 	Total Deformer Count 1645887872.
+[2018.10.15-02.18.07:010][314]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.07:010][314]LogFbx: =================================================
+[2018.10.15-02.18.07:010][314]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.07:010][314]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.07:010][314]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.07:010][314]LogFbx: =================================================
+[2018.10.15-02.18.07:010][314]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.07:010][314]LogFbx: 	Total Deformer Count 1645887872.
+[2018.10.15-02.18.07:010][314]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.07:010][314]LogFbx: =================================================
+[2018.10.15-02.18.07:010][314]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.07:010][314]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.07:010][314]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.07:010][314]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.18.07:011][314]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.18.07:012][314]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.18.07:015][314]LogFbx: Parsing AnimStack Player_Arma|DefaultAnim
+[2018.10.15-02.18.07:100][314]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim.ScarfBoy_Anim_Player_Arma_DefaultAnim
+[2018.10.15-02.18.07:101][314]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.18.07:104][314]LogFbx: Parsing AnimStack Player_Arma|P_Walk
+[2018.10.15-02.18.07:173][314]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk.ScarfBoy_Anim_Player_Arma_P_Walk
+[2018.10.15-02.18.07:173][314]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.18.07:176][314]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.07:181][314]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.07:212][314]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.07:215][314]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.09:348][468]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.15-02.18.09:975][517]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.15-02.18.11:227][626]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.18.11:280][630]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.18.11:977][692]Cmd: DELETE
+[2018.10.15-02.18.11:977][692]Cmd: ACTOR DELETE
+[2018.10.15-02.18.11:980][692]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-02.18.12:016][692]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.10.15-02.18.12:328][723]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.18.13:807][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.18.14:102][848]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.18.14:390][862]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-02.18.15:719][975]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-02.18.20:133][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.18.20:254][421]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-02.18.20:268][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.18.20:268][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-02.18.20:269][421]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 12:18:20 PM)
+[2018.10.15-02.18.20:269][421]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-02.18.20:290][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021121s)
+[2018.10.15-02.18.20:290][421]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-02.18.20:291][421]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.10.15-02.18.20:291][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022060s)
+[2018.10.15-02.18.20:382][421]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-02.18.20:465][421]LogInit: FAudioDevice initialized.
+[2018.10.15-02.18.20:498][421]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-02.18.20:501][421]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-19.18.20
+[2018.10.15-02.18.20:502][421]LogWorld: Bringing up level for play took: 0.002663
+[2018.10.15-02.18.20:514][421]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.366
+[2018.10.15-02.18.20:514][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.18.30:325][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.18.30:326][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-02.18.30:362][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-02.18.30:362][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.18.30:388][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-02.18.30:426][584]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.10.15-02.18.31:686][734]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ScarfBoy_Anim_Player_Arma_DefaultAnim)
+[2018.10.15-02.18.32:226][790]Cmd: DELETE
+[2018.10.15-02.18.32:226][790]Cmd: ACTOR DELETE
+[2018.10.15-02.18.32:228][790]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-02.18.32:249][790]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.10.15-02.18.33:075][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.18.37:088][ 65]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.18.39:753][202]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-02.18.39:956][202]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.39:957][202]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.39:963][202]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.39:964][202]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.39:970][202]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.39:972][202]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.39:979][202]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.39:982][202]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.43:543][485]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx)
+[2018.10.15-02.18.43:557][485]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\ScarfBoy.fbx
+[2018.10.15-02.18.43:579][485]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-02.18.46:011][485]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-02.18.46:052][485]LogFbx: =================================================
+[2018.10.15-02.18.46:052][485]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.46:052][485]LogFbx: 	Total Deformer Count 939000320.
+[2018.10.15-02.18.46:052][485]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.46:052][485]LogFbx: =================================================
+[2018.10.15-02.18.46:052][485]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.46:052][485]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.46:052][485]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.46:052][485]LogFbx: =================================================
+[2018.10.15-02.18.46:053][485]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.46:053][485]LogFbx: 	Total Deformer Count 939000320.
+[2018.10.15-02.18.46:053][485]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.46:053][485]LogFbx: =================================================
+[2018.10.15-02.18.46:053][485]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.46:053][485]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.46:053][485]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.46:053][485]LogFbx: Valid bind pose for Pose (Icosphere) - Player_Mesh
+[2018.10.15-02.18.46:055][485]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.18.46:057][485]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.18.46:096][485]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.18.46:096][485]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.18.46:096][485]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.18.46:096][485]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.18.46:096][485]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-02.18.46:122][485]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-02.18.46:124][485]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.18.46:159][485]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2018.10.15-02.18.46:219][485]LogFbx: Triangulating skeletal mesh Player_Mesh
+[2018.10.15-02.18.46:426][485]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2018.10.15-02.18.46:479][485]LogSkeletalMesh: Section 0: 918 vertices, 11 active bones
+[2018.10.15-02.18.46:479][485]LogSkeletalMesh: Section 1: 496 vertices, 1 active bones
+[2018.10.15-02.18.46:479][485]LogSkeletalMesh: Section 0: Material=0, 1204 triangles
+[2018.10.15-02.18.46:479][485]LogSkeletalMesh: Section 1: Material=1, 640 triangles
+[2018.10.15-02.18.46:480][485]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.46:487][485]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.46:508][485]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-02.18.46:523][485]LogFbx: =================================================
+[2018.10.15-02.18.46:523][485]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.46:523][485]LogFbx: 	Total Deformer Count 939180288.
+[2018.10.15-02.18.46:523][485]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.46:524][485]LogFbx: =================================================
+[2018.10.15-02.18.46:524][485]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.46:524][485]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.46:524][485]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.46:524][485]LogFbx: =================================================
+[2018.10.15-02.18.46:524][485]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-02.18.46:524][485]LogFbx: 	Total Deformer Count 939180288.
+[2018.10.15-02.18.46:524][485]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-02.18.46:524][485]LogFbx: =================================================
+[2018.10.15-02.18.46:524][485]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-02.18.46:524][485]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-02.18.46:524][485]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(1) Root
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-02.18.46:525][485]LogFbx: SortedLinks :(4) Head
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-02.18.46:526][485]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-02.18.46:529][485]LogFbx: Parsing AnimStack Player_Arma|DefaultAnim
+[2018.10.15-02.18.46:627][485]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim.ScarfBoy_Anim_Player_Arma_DefaultAnim
+[2018.10.15-02.18.46:627][485]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ScarfBoy_Anim_Player_Arma_DefaultAnim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.18.46:629][485]LogFbx: Parsing AnimStack Player_Arma|P_Walk
+[2018.10.15-02.18.46:729][485]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk.ScarfBoy_Anim_Player_Arma_P_Walk
+[2018.10.15-02.18.46:730][485]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ScarfBoy_Anim_Player_Arma_P_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-02.18.46:733][485]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.46:737][485]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.46:759][485]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-02.18.46:762][485]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-02.18.49:312][635]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.10.15-02.18.49:829][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.18.49:890][677]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.15-02.18.49:948][682]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-02.18.49:972][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.18.49:972][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-02.18.49:972][682]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 12:18:49 PM)
+[2018.10.15-02.18.49:972][682]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-02.18.49:990][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017388s)
+[2018.10.15-02.18.49:991][682]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-02.18.49:991][682]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2018.10.15-02.18.49:991][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018625s)
+[2018.10.15-02.18.50:125][682]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-02.18.50:234][682]LogInit: FAudioDevice initialized.
+[2018.10.15-02.18.50:274][682]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-02.18.50:277][682]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-19.18.50
+[2018.10.15-02.18.50:277][682]LogWorld: Bringing up level for play took: 0.002510
+[2018.10.15-02.18.50:290][682]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.143
+[2018.10.15-02.18.50:291][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.18.51:449][788]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.15-02.18.51:494][793]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.15-02.18.52:026][841]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.15-02.18.54:548][ 88]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.15-02.18.54:690][103]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-02.18.55:024][136]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-02.18.55:859][218]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-02.18.57:133][345]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-02.18.58:561][485]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-02.18.58:923][521]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-02.19.17:500][682]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.19.17:501][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-02.19.17:536][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-02.19.17:536][682]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.19.17:559][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-02.19.17:603][685]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.10.15-02.19.19:350][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.19.23:675][371]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset.ScarfBoy_PhysicsAsset
+[2018.10.15-02.19.23:686][371]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.10.15-02.19.31:718][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.19.43:491][531]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ScarfBoy_Anim_Player_Arma_DefaultAnim_25.SkeletalMeshComponent0'
+[2018.10.15-02.19.43:492][531]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.10.15-02.19.43:494][531]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.10.15-02.19.48:648][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.20.00:225][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.20.04:466][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.20.07:729][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.20.48:981][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.20.53:953][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.20.55:902][891]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.10.15-02.20.55:905][891]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.10.15-02.21.01:087][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.21.21:861][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.21.21:942][ 25]Cmd: MODE GRID=0
+[2018.10.15-02.21.25:164][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.21.25:245][290]Cmd: MODE SCALEGRID=0
+[2018.10.15-02.21.51:879][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.22.39:900][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-02.25.14:080][787]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.10.15-02.25.14:082][787]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.10.15-02.25.27:018][865]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.15-02.26.13:769][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMap_Auto3F9E325B4448113FB30BD7995AB7B119B.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.10.15-02.26.13:783][953]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.230
+[2018.10.15-02.26.13:783][953]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2018.10.15-02.26.13:787][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim] ([1] browsable assets)...
+[2018.10.15-02.26.13:799][953]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim.ScarfBoy_Anim_Player_Arma_DefaultAnim]
+[2018.10.15-02.26.13:799][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim]
+[2018.10.15-02.26.13:825][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_Anim_Player_Arma_Defaul5F1F139D42F783AC4FC3B5BD77A9C112.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim_Auto3.uasset'
+[2018.10.15-02.26.13:831][953]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Skeleton] ([1] browsable assets)...
+[2018.10.15-02.26.13:831][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Skeleton]
+[2018.10.15-02.26.13:844][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_Skeleton_Auto33D4111374EB43FE91854D49E567F34F7.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Skeleton_Auto3.uasset'
+[2018.10.15-02.26.13:848][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Animation/Material_001] ([1] browsable assets)...
+[2018.10.15-02.26.13:865][953]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/Animation/Material_001.Material_001]
+[2018.10.15-02.26.13:865][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Animation/Material_001]
+[2018.10.15-02.26.13:887][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Material_001_Auto3A038D2334BD20E3CDE606B86830CCE47.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Animation/Material_001_Auto3.uasset'
+[2018.10.15-02.26.13:977][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk] ([1] browsable assets)...
+[2018.10.15-02.26.13:987][953]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk.ScarfBoy_Anim_Player_Arma_P_Walk]
+[2018.10.15-02.26.13:987][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk]
+[2018.10.15-02.26.14:010][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_Anim_Player_Arma_P_Walk904D516A42FA25223A7828AF64AD8235.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk_Auto3.uasset'
+[2018.10.15-02.26.14:014][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy] ([1] browsable assets)...
+[2018.10.15-02.26.14:030][953]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy]
+[2018.10.15-02.26.14:030][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy]
+[2018.10.15-02.26.14:053][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_Auto3095E22294DF4B426BC02718A9C39FED2.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Auto3.uasset'
+[2018.10.15-02.26.14:059][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Animation/Material_002] ([1] browsable assets)...
+[2018.10.15-02.26.14:069][953]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/Animation/Material_002.Material_002]
+[2018.10.15-02.26.14:069][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Animation/Material_002]
+[2018.10.15-02.26.14:089][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Material_002_Auto3BAC0BF4F4400ED787083F18FAC2020A5.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Animation/Material_002_Auto3.uasset'
+[2018.10.15-02.26.14:094][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset] ([1] browsable assets)...
+[2018.10.15-02.26.14:103][953]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset.ScarfBoy_PhysicsAsset]
+[2018.10.15-02.26.14:103][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset]
+[2018.10.15-02.26.14:123][953]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_PhysicsAsset_Auto3E7FF35EE45A07F28C68DACAF031C15F1.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset_Auto3.uasset'
+[2018.10.15-02.26.14:126][953]LogFileHelpers: Auto-saving content packages took 0.342
+[2018.10.15-02.29.20:205][647]LogSlate: Window 'ScarfBoy_PhysicsAsset*' being destroyed
+[2018.10.15-02.29.23:911][925]LogSlate: Window 'Save Content' being destroyed
+[2018.10.15-02.29.24:021][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Material_001FDEC906141F318D44CCE8C8178E2A4FA.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Material_001.uasset'
+[2018.10.15-02.29.24:046][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Material_0026ECA2F374391CDCE352140A8B448F6A4.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Material_002.uasset'
+[2018.10.15-02.29.24:081][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy2FFB63F3417456537BB0919801CCA154.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/ScarfBoy.uasset'
+[2018.10.15-02.29.24:115][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_Anim_Player_Arma_Defaul7425698D411FEFBB2C971C986CEFD12C.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_DefaultAnim.uasset'
+[2018.10.15-02.29.24:147][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_Anim_Player_Arma_P_WalkC3ADC1B340CF38DC71CEE8BCF397FCBC.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Anim_Player_Arma_P_Walk.uasset'
+[2018.10.15-02.29.24:179][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_PhysicsAssetA407FAA94442D5985F146F8A44234E6E.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/ScarfBoy_PhysicsAsset.uasset'
+[2018.10.15-02.29.24:207][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ScarfBoy_Skeleton681BF3574E1656B4A42992922A446B5D.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/ScarfBoy_Skeleton.uasset'
+[2018.10.15-02.29.24:806][925]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMapA0890A874C6957289CE9D49B19C4B3D8.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.15-02.29.24:859][925]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.642
+[2018.10.15-02.30.50:866][485]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-02.30.50:883][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.30.50:884][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-02.30.50:884][485]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 12:30:50 PM)
+[2018.10.15-02.30.50:884][485]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-02.30.50:906][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021833s)
+[2018.10.15-02.30.50:906][485]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-02.30.50:907][485]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2018.10.15-02.30.50:907][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023067s)
+[2018.10.15-02.30.51:007][485]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-02.30.51:091][485]LogInit: FAudioDevice initialized.
+[2018.10.15-02.30.51:120][485]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-02.30.51:122][485]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ScarfBoy_Anim_Player_Arma_DefaultAnim_25.SkeletalMeshComponent0'
+[2018.10.15-02.30.51:123][485]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-19.30.51
+[2018.10.15-02.30.51:123][485]LogWorld: Bringing up level for play took: 0.002543
+[2018.10.15-02.30.51:136][485]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.988
+[2018.10.15-02.30.51:136][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.30.54:791][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.30.54:791][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-02.30.54:825][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-02.30.54:826][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-02.30.54:855][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-02.30.54:897][916]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.10.15-03.05.11:286][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.15-03.05.13:421][471]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ScarfBoy_Anim_Player_Arma_DefaultAnim)
+[2018.10.15-03.05.14:888][624]Cmd: DELETE
+[2018.10.15-03.05.14:888][624]Cmd: ACTOR DELETE
+[2018.10.15-03.05.14:891][624]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-03.05.14:918][624]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.10.15-03.05.16:161][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.05.21:636][958]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-03.05.25:643][289]LogSlate: Window 'Save Content' being destroyed
+[2018.10.15-03.05.26:342][289]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMapABBDAFBD45D0BDD5CE3678AA1501BA8D.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.15-03.05.26:387][289]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.681
+[2018.10.15-03.05.30:677][441]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.15-03.05.30:922][441]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-03.05.30:924][441]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-03.05.30:926][441]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-03.05.30:929][441]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-03.05.30:930][441]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-03.05.30:932][441]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-03.05.30:933][441]LogSkeletalMesh: Building Skeletal Mesh ScarfBoy...
+[2018.10.15-03.05.30:935][441]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/ScarfBoy.ScarfBoy
+[2018.10.15-03.08.55:756][853]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Player.fbx)
+[2018.10.15-03.08.55:773][853]LogFbx: Loading FBX Scene from E:\JasonsStuff\College\GameDesign\ISTA 451\3DGame\3DGameAssets\FBXs\Player.fbx
+[2018.10.15-03.08.55:796][853]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.15-03.08.58:789][853]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.15-03.08.58:808][853]LogFbx: =================================================
+[2018.10.15-03.08.58:809][853]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-03.08.58:809][853]LogFbx: 	Total Deformer Count 930498688.
+[2018.10.15-03.08.58:809][853]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-03.08.58:809][853]LogFbx: =================================================
+[2018.10.15-03.08.58:809][853]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-03.08.58:809][853]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-03.08.58:809][853]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-03.08.58:809][853]LogFbx: =================================================
+[2018.10.15-03.08.58:809][853]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-03.08.58:809][853]LogFbx: 	Total Deformer Count 930498688.
+[2018.10.15-03.08.58:809][853]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-03.08.58:809][853]LogFbx: =================================================
+[2018.10.15-03.08.58:809][853]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-03.08.58:809][853]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-03.08.58:809][853]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-03.08.58:809][853]LogFbx: Valid bind pose for Pose (Icosphere) - Player_Mesh
+[2018.10.15-03.08.58:811][853]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Animation/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.15-03.08.58:813][853]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-03.08.58:853][853]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2018.10.15-03.08.58:880][853]LogFbx: Triangulating skeletal mesh Player_Mesh
+[2018.10.15-03.08.59:029][853]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.15-03.08.59:029][853]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.15-03.08.59:029][853]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.15-03.08.59:029][853]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.15-03.08.59:029][853]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2018.10.15-03.08.59:120][853]LogSkeletalMesh: Section 0: 982 vertices, 11 active bones
+[2018.10.15-03.08.59:120][853]LogSkeletalMesh: Section 0: Material=0, 1236 triangles
+[2018.10.15-03.08.59:121][853]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2018.10.15-03.08.59:124][853]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/Player.Player
+[2018.10.15-03.08.59:134][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_Skeleton'
+[2018.10.15-03.08.59:135][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_Skeleton'
+[2018.10.15-03.08.59:142][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_PhysicsAsset'
+[2018.10.15-03.08.59:143][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_PhysicsAsset'
+[2018.10.15-03.08.59:156][853]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_29:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-03.08.59:168][853]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_30:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.10.15-03.08.59:493][853]LogFbx: =================================================
+[2018.10.15-03.08.59:494][853]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-03.08.59:494][853]LogFbx: 	Total Deformer Count 935754688.
+[2018.10.15-03.08.59:494][853]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-03.08.59:494][853]LogFbx: =================================================
+[2018.10.15-03.08.59:494][853]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-03.08.59:494][853]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-03.08.59:494][853]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-03.08.59:495][853]LogFbx: =================================================
+[2018.10.15-03.08.59:495][853]LogFbx: Dumping Node START [Player_Mesh] 
+[2018.10.15-03.08.59:495][853]LogFbx: 	Total Deformer Count 935754688.
+[2018.10.15-03.08.59:495][853]LogFbx: 		[Node 1] Player_Arma (Type Skin).
+[2018.10.15-03.08.59:496][853]LogFbx: =================================================
+[2018.10.15-03.08.59:496][853]LogFbx: 	Attribute (Icosphere) Type (4).
+[2018.10.15-03.08.59:496][853]LogFbx: 		[Node Attribute Child 1] Player_Mesh (Type Mesh).
+[2018.10.15-03.08.59:496][853]LogFbx: Dumping Node END [Player_Mesh]
+[2018.10.15-03.08.59:496][853]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-03.08.59:496][853]LogFbx: SortedLinks :(1) Root
+[2018.10.15-03.08.59:496][853]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-03.08.59:496][853]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-03.08.59:496][853]LogFbx: SortedLinks :(4) Head
+[2018.10.15-03.08.59:496][853]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(0) Player_Arma
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(1) Root
+[2018.10.15-03.08.59:497][853]LogFbx: SortedLinks :(2) Torso
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(3) Neck
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(4) Head
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(5) RBicep
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(6) RForearm
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(7) Hips
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(8) RThigh
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(9) RCalf
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(10) LThigh
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(11) LCalf
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(12) LBicep
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(13) LForearm
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(14) RKnee
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(15) RFootIK
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(16) RHandIK
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(17) RElbow
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(18) LKnee
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(19) LFootIK
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(20) LHandIK
+[2018.10.15-03.08.59:498][853]LogFbx: SortedLinks :(21) LElbow
+[2018.10.15-03.08.59:503][853]LogFbx: Parsing AnimStack Player_Arma|DefaultAnim
+[2018.10.15-03.08.59:507][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_DefaultAnim'
+[2018.10.15-03.08.59:507][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_DefaultAnim'
+[2018.10.15-03.08.59:630][853]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_DefaultAnim.Player_Anim_Player_Arma_DefaultAnim
+[2018.10.15-03.08.59:631][853]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Player_Anim_Player_Arma_DefaultAnim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-03.08.59:641][853]LogFbx: Parsing AnimStack Player_Arma|P_Walk
+[2018.10.15-03.08.59:646][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_P_Walk'
+[2018.10.15-03.08.59:646][853]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_P_Walk'
+[2018.10.15-03.08.59:732][853]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_P_Walk.Player_Anim_Player_Arma_P_Walk
+[2018.10.15-03.08.59:732][853]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Player_Anim_Player_Arma_P_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.15-03.08.59:741][853]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2018.10.15-03.08.59:747][853]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Animation/Player.Player
+[2018.10.15-03.08.59:774][853]FBXImport: Warning: The bone size is too small to create Physics Asset 'Player_PhysicsAsset' from Skeletal Mesh 'Player'. You will have to create physics asset manually. 
+[2018.10.15-03.08.59:776][853]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2018.10.15-03.08.59:777][853]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Animation/Player.Player
+[2018.10.15-03.09.03:277][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.09.04:403][152]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.15-03.09.05:112][206]Cmd: DELETE
+[2018.10.15-03.09.05:112][206]Cmd: ACTOR DELETE
+[2018.10.15-03.09.05:117][206]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-03.09.05:152][206]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.15-03.09.05:301][222]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.15-03.09.05:710][264]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Player)
+[2018.10.15-03.09.05:835][265]Cmd: DELETE
+[2018.10.15-03.09.05:835][265]Cmd: ACTOR DELETE
+[2018.10.15-03.09.05:839][265]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.10.15-03.09.05:875][265]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.15-03.09.07:097][389]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.10.15-03.09.10:194][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.09.13:184][789]LogSlate: Window 'Save Content' being destroyed
+[2018.10.15-03.09.13:277][789]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Material_002690C44F54BB86819FF119BAAF5C4ABE9.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Material_002.uasset'
+[2018.10.15-03.09.13:326][789]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Player1D3D68734D481279FD8A7DA0421153CD.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player.uasset'
+[2018.10.15-03.09.13:370][789]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Player_Anim_Player_Arma_DefaultA655439AD4AFE4677AE402492E5D411E9.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_DefaultAnim.uasset'
+[2018.10.15-03.09.13:417][789]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Player_Anim_Player_Arma_P_Walk42DE0A064605ED965405A1897B06481D.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_Anim_Player_Arma_P_Walk.uasset'
+[2018.10.15-03.09.13:453][789]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Player_Skeleton050EAEE745D556F9D963698FA7274D4C.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_Skeleton.uasset'
+[2018.10.15-03.09.14:057][789]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMap06BE5383419DD79A43D92E852CF25B39.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.15-03.09.14:105][789]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.641
+[2018.10.15-03.10.08:179][226]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/ThirdPersonBP/Blueprints/Animation/Player_IdleWalkRun.Player_IdleWalkRun
+[2018.10.15-03.10.08:222][226]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.15-03.10.08:669][226]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.10.15-03.10.21:986][113]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Player_IdleWalkRunC013671F451D49F617137AABABBF11CA.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_IdleWalkRun.uasset'
+[2018.10.15-03.10.22:460][138]LogSlate: Window 'Player_IdleWalkRun' being destroyed
+[2018.10.15-03.10.25:899][358]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.10.15-03.10.29:154][358]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2018.10.15-03.10.34:268][790]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP
+[2018.10.15-03.10.34:315][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.15-03.11.25:986][228]BlueprintLog: New page: Compile Player_AnimBP
+[2018.10.15-03.11.25:997][228]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_34:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.25:997][228]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:146][228]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:177][229]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:190][230]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:203][231]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:218][232]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:236][233]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:249][234]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:263][235]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:273][236]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:287][237]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:303][238]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:319][239]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:333][240]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:348][241]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:358][242]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Player_AnimBP_C /Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:0069
+[2018.10.15-03.11.26:698][258]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/Player_AnimBP8BA873BA46278BD98EB3E496ED33B19D.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.uasset'
+[2018.10.15-03.11.27:598][320]LogSlate: Window 'Player_AnimBP' being destroyed
+[2018.10.15-03.11.30:482][551]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.15-03.11.36:983][894]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Player_Skeleton, removing AnimBP from actor.
+[2018.10.15-03.11.36:983][894]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Player_Skeleton, removing AnimBP from actor.
+[2018.10.15-03.11.36:984][894]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Player_Skeleton, removing AnimBP from actor.
+[2018.10.15-03.11.36:984][894]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Player_Skeleton, removing AnimBP from actor.
+[2018.10.15-03.11.38:283][971]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.15-03.11.50:639][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.11.52:903][899]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.15-03.11.53:716][919]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonCharacter10DE1CA64ACCBB32384CC6BD61DE1F90.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.15-03.11.54:242][956]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.15-03.11.55:053][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-03.11.55:080][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.11.55:080][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-03.11.55:080][ 26]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 1:11:55 PM)
+[2018.10.15-03.11.55:080][ 26]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-03.11.55:095][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014741s)
+[2018.10.15-03.11.55:096][ 26]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-03.11.55:096][ 26]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2018.10.15-03.11.55:096][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015768s)
+[2018.10.15-03.11.55:220][ 26]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-03.11.55:299][ 26]LogInit: FAudioDevice initialized.
+[2018.10.15-03.11.55:334][ 26]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-03.11.55:335][ 26]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-20.11.55
+[2018.10.15-03.11.55:336][ 26]LogWorld: Bringing up level for play took: 0.000869
+[2018.10.15-03.11.55:348][ 26]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.2
+[2018.10.15-03.11.55:348][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.11.58:654][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.11.58:655][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.11.58:695][404]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-03.11.58:695][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.11.58:725][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.11.58:759][406]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2018.10.15-03.12.00:069][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.12.00:269][570]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.15-03.12.08:920][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.12.09:231][230]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.15-03.12.09:978][272]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonCharacterCDE8EC344255E34B2ABA61B6F90CB8FB.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.15-03.12.10:452][312]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.15-03.12.11:149][377]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-03.12.11:167][377]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.11:168][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-03.12.11:168][377]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 1:12:11 PM)
+[2018.10.15-03.12.11:168][377]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-03.12.11:187][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018871s)
+[2018.10.15-03.12.11:187][377]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-03.12.11:188][377]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.10.15-03.12.11:188][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019879s)
+[2018.10.15-03.12.11:348][377]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-03.12.11:431][377]LogInit: FAudioDevice initialized.
+[2018.10.15-03.12.11:465][377]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-03.12.11:467][377]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-20.12.11
+[2018.10.15-03.12.11:467][377]LogWorld: Bringing up level for play took: 0.001531
+[2018.10.15-03.12.11:481][377]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.667
+[2018.10.15-03.12.11:481][377]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.12:797][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.12:797][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.12.12:832][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-03.12.12:833][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.12:863][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.12.12:904][527]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2018.10.15-03.12.15:325][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.12.15:564][819]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.15-03.12.19:100][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.12.21:949][257]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.15-03.12.22:596][290]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonCharacter736DC3BC417591926761E39991633791.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.15-03.12.23:308][353]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-03.12.23:327][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.23:327][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-03.12.23:327][353]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 1:12:23 PM)
+[2018.10.15-03.12.23:327][353]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-03.12.23:348][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020859s)
+[2018.10.15-03.12.23:348][353]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-03.12.23:349][353]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.10.15-03.12.23:349][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021776s)
+[2018.10.15-03.12.23:449][353]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-03.12.23:528][353]LogInit: FAudioDevice initialized.
+[2018.10.15-03.12.23:566][353]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-03.12.23:568][353]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-20.12.23
+[2018.10.15-03.12.23:568][353]LogWorld: Bringing up level for play took: 0.001205
+[2018.10.15-03.12.23:581][353]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.567
+[2018.10.15-03.12.23:581][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.24:846][455]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.15-03.12.27:766][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.27:766][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.12.27:801][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-03.12.27:801][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.27:833][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.12.27:873][798]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2018.10.15-03.12.28:447][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.12.45:565][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.12.45:803][280]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonCharacter1003E15B4C13195CA18BEB970750978E.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.15-03.12.53:157][106]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-03.12.53:172][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.53:172][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-03.12.53:172][106]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 1:12:53 PM)
+[2018.10.15-03.12.53:172][106]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-03.12.53:190][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018304s)
+[2018.10.15-03.12.53:191][106]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-03.12.53:192][106]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2018.10.15-03.12.53:192][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019613s)
+[2018.10.15-03.12.53:291][106]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-03.12.53:372][106]LogInit: FAudioDevice initialized.
+[2018.10.15-03.12.53:449][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.12.53:618][106]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-03.12.53:620][106]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-20.12.53
+[2018.10.15-03.12.53:620][106]LogWorld: Bringing up level for play took: 0.001617
+[2018.10.15-03.12.53:632][106]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.15-03.12.53:635][106]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.514
+[2018.10.15-03.12.53:635][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.53:659][106]LogRenderer: Reallocating scene render targets to support 1292x888 Format 10 NumSamples 1 (Frame:1).
+[2018.10.15-03.12.58:651][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.58:651][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.12.58:666][674]LogSlate: Window 'Exploration Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.15-03.12.58:703][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-03.12.58:703][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.12.58:814][675]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2018.10.15-03.13.06:947][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.13.07:346][672]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.15-03.13.08:123][727]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonCharacter4F2B978846F90AA8D1D536A3FF9A272B.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.15-03.13.08:968][827]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-03.13.08:987][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.13.08:987][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-03.13.08:987][827]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 1:13:08 PM)
+[2018.10.15-03.13.08:987][827]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-03.13.09:003][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015375s)
+[2018.10.15-03.13.09:004][827]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-03.13.09:004][827]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2018.10.15-03.13.09:004][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016586s)
+[2018.10.15-03.13.09:096][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-03.13.09:171][827]LogInit: FAudioDevice initialized.
+[2018.10.15-03.13.09:223][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.13.09:334][827]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-03.13.09:336][827]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-20.13.09
+[2018.10.15-03.13.09:336][827]LogWorld: Bringing up level for play took: 0.000936
+[2018.10.15-03.13.09:348][827]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.15-03.13.09:350][827]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.201
+[2018.10.15-03.13.09:350][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.13.10:377][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.13.10:377][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.13.10:397][939]LogSlate: Window 'Exploration Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.15-03.13.10:433][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-03.13.10:433][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.13.10:492][940]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2018.10.15-03.13.13:281][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.13.16:312][594]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.15-03.13.16:971][636]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonCharacter696CFF774A0DAE1C212BC68603957922.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.15-03.13.34:868][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.13.46:901][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.13.51:895][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.13.57:848][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.13.57:966][386]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.15-03.13.58:716][438]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonCharacter6B3CDCF8445654EA20CBDBACBA435BE8.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.15-03.13.59:137][487]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.15-03.13.59:159][487]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.13.59:159][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.15-03.13.59:160][487]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2018, 1:13:59 PM)
+[2018.10.15-03.13.59:160][487]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.15-03.13.59:180][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019874s)
+[2018.10.15-03.13.59:181][487]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.15-03.13.59:181][487]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2018.10.15-03.13.59:181][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021273s)
+[2018.10.15-03.13.59:278][487]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-03.13.59:351][487]LogInit: FAudioDevice initialized.
+[2018.10.15-03.13.59:418][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.13.59:544][487]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.15-03.13.59:545][487]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.14-20.13.59
+[2018.10.15-03.13.59:546][487]LogWorld: Bringing up level for play took: 0.001169
+[2018.10.15-03.13.59:558][487]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.15-03.13.59:560][487]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.588
+[2018.10.15-03.13.59:560][487]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.14.04:498][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.14.04:499][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-03.14.04:517][ 60]LogSlate: Window 'Exploration Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.15-03.14.04:549][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.15-03.14.04:550][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.15-03.14.04:608][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2018.10.15-03.14.12:543][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.15.04:847][585]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.10.15-03.15.06:682][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-03.15.17:009][853]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMapA40158B1492AE7F1DBDE5DB99D1EA275.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.15-03.15.17:219][853]LogSavePackage: Moving 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Saved/ThirdPersonExampleMap_BuiltData38E9FA2B45290F8C499F28B85A5A1243.tmp' to 'E:/JasonsStuff/College/GameDesign/ISTA 451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.10.15-03.44.30:599][863]LogSlate: Window 'Exploration - Unreal Editor' being destroyed
+[2018.10.15-03.44.30:889][864]Cmd: QUIT_EDITOR
+[2018.10.15-03.44.31:655][864]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.15-03.44.31:667][864]LogExit: Preparing to exit.
+[2018.10.15-03.44.32:208][864]LogExit: Editor shut down
+[2018.10.15-03.44.32:209][864]LogExit: Transaction tracking system shut down
+[2018.10.15-03.44.32:869][864]LogExit: Object subsystem successfully closed.
+[2018.10.15-03.44.32:904][864]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.15-03.44.32:909][864]LogD3D11RHI: Shutdown
+[2018.10.15-03.44.32:909][864]LogD3D11RHI: CleanupD3DDevice
+[2018.10.15-03.44.32:915][864]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.15-03.44.33:048][864]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (636)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module AnimationEditor (634)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (632)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module PinnedCommandList (630)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module SkeletonEditor (628)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (626)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module MeshBuilder (624)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (622)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (620)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.10.15-03.44.33:049][864]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.10.15-03.44.33:050][864]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.10.15-03.44.33:050][864]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.10.15-03.44.33:050][864]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.10.15-03.44.33:051][864]LogModuleManager: Shutting down and abandoning module WorldBrowser (600)
+[2018.10.15-03.44.33:051][864]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.10.15-03.44.33:051][864]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.10.15-03.44.33:051][864]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.10.15-03.44.33:052][864]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.10.15-03.44.33:053][864]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.10.15-03.44.33:054][864]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.10.15-03.44.33:533][864]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.10.15-03.44.33:534][864]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.10.15-03.44.33:589][864]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.10.15-03.44.33:599][864]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.10.15-03.44.33:599][864]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.10.15-03.44.33:603][864]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.10.15-03.44.33:603][864]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.10.15-03.44.33:603][864]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.10.15-03.44.33:603][864]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.10.15-03.44.33:603][864]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.10.15-03.44.33:603][864]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.10.15-03.44.33:604][864]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.10.15-03.44.33:661][864]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.10.15-03.44.33:665][864]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.10.15-03.44.33:666][864]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.10.15-03.44.33:667][864]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.15-03.44.33:668][864]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.15-03.44.33:769][864]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.15-03.44.33:870][864]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.15-03.44.33:871][864]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.15-03.44.33:873][864]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.15-03.44.33:881][864]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.15-03.44.33:882][864]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.15-03.44.33:885][864]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.15-03.44.33:980][864]LogDerivedDataCache: Shutdown
+[2018.10.15-03.44.33:980][864]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.15-03.44.33:980][864]LogXGEController: Cleaning working directory: C:/Users/Jason/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.15-03.44.33:981][864]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.15-03.44.33:982][864]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.15-03.44.33:982][864]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.15-03.44.33:982][864]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.15-03.44.33:982][864]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.15-03.44.33:988][864]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.15-03.44.33:989][864]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.15-03.44.33:989][864]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.15-03.44.33:993][864]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.15-03.44.33:993][864]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.15-03.44.33:993][864]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD78CC246-40B4-6500-F3EA-DBA28EE2C588%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=3a3b3e16401a9e7c892cdfa2356dffd3%7Cd03da1c8853e40c987e95c2ac5f10a88%7Ccaf55c99-985e-4fca-95af-26734a9c68ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.15-03.44.34:001][864]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.15-03.44.34:003][864]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.15-03.44.34:003][864]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.15-03.44.34:004][864]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.15-03.44.34:004][864]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.15-03.44.34:004][864]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.15-03.44.34:004][864]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.15-03.44.34:005][864]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.15-03.44.34:005][864]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.15-03.44.34:005][864]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.15-03.44.34:006][864]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.15-03.44.34:007][864]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.15-03.44.34:022][864]LogExit: Exiting.
+[2018.10.15-03.44.34:047][864]Log file closed, 10/14/18 20:44:34
