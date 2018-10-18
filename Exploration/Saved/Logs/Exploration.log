@@ -1,4 +1,4 @@
-﻿Log file open, 10/17/18 10:33:54
+﻿Log file open, 10/18/18 10:54:16
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Exploration
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.509292
+LogStats: Stats thread started at 1.485715
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.306s to configure plugins.
+LogStreaming: Display: Took  0.344s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,640 +147,342 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.007s to delete old logs.
+LogStreaming: Display: Took  0.009s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.17-16.33.56:893][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-16.33.56:893][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.17-16.33.56:948][  0]LogHAL: Display: Platform has ~ 8 GB [8445386752 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.17-16.33.56:949][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.17-16.33.56:949][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.17-16.33.56:964][  0]LogInit: Computer: DESKTOP-HL78CGT
-[2018.10.17-16.33.56:964][  0]LogInit: User: brest
-[2018.10.17-16.33.56:964][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.17-16.33.56:964][  0]LogInit: High frequency timer resolution =2.437500 MHz
-[2018.10.17-16.33.56:965][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.10.17-16.33.56:965][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.17-16.33.56:965][  0]LogMemory: Process Physical Memory: 102.64 MB used, 102.64 MB peak
-[2018.10.17-16.33.56:965][  0]LogMemory: Process Virtual Memory: 84.35 MB used, 84.35 MB peak
-[2018.10.17-16.33.56:965][  0]LogMemory: Physical Memory: 4335.60 MB used,  3718.55 MB free, 8054.15 MB total
-[2018.10.17-16.33.56:965][  0]LogMemory: Virtual Memory: 4620.89 MB used,  3718.55 MB free, 134217728.00 MB total
-[2018.10.17-16.33.57:452][  0]LogInit: Using OS detected language (en-US).
-[2018.10.17-16.33.57:452][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.17-16.33.57:459][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.17-16.33.58:048][  0]LogStreaming: Display: Took  0.595s to InitEngineTextLocalization.
-[2018.10.17-16.33.58:184][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.17-16.33.58:184][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.17-16.34.01:308][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.17-16.34.01:308][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.17-16.34.01:365][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2018.10.17-16.34.01:365][  0]LogD3D11RHI:       4049/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.17-16.34.01:382][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.10.17-16.34.01:382][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.10.17-16.34.01:383][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.17-16.34.01:383][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.17-16.34.01:383][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.17-16.34.01:405][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.17-16.34.01:405][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2018.10.17-16.34.01:405][  0]LogWindows: EnumDisplayDevices:
-[2018.10.17-16.34.01:406][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.10.17-16.34.01:407][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.17-16.34.01:407][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.17-16.34.01:407][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.10.17-16.34.01:407][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2018.10.17-16.34.01:407][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.10.17-16.34.01:407][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.10.17-16.34.01:407][  0]LogRHI: Texture pool is 2834 MB (70% of 4049 MB)
-[2018.10.17-16.34.01:437][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.17-16.34.01:468][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.10.17-16.34.01:474][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../GameDev/ISTA451/3DGame/Exploration/Intermediate/Shaders/WorkingDirectory/12460/).
-[2018.10.17-16.34.01:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brest/AppData/Local/Temp/UnrealShaderWorkingDir/885B0AF6414DDE9FBB55EB865247AF9F/'.
-[2018.10.17-16.34.01:972][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.17-16.34.02:002][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.17-16.34.02:031][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.17-16.34.02:062][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.17-16.34.02:099][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.17-16.34.02:133][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.17-16.34.02:165][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.17-16.34.02:195][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.17-16.34.02:218][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-16.34.02:362][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.17-16.34.02:486][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.17-16.34.02:486][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.17-16.34.02:528][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.17-16.34.02:529][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.17-16.34.02:559][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.17-16.34.02:588][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.17-16.34.02:617][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.17-16.34.02:660][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.17-16.34.02:685][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.17-16.34.02:686][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.17-16.34.03:146][  0]LogXGEController: Cleaning working directory: C:/Users/brest/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.17-16.34.03:146][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.17-16.34.03:146][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.17-16.34.03:146][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.17-16.34.05:684][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.17-16.34.06:397][  0]LogDerivedDataCache: Loaded boot cache 0.71s 71MB C:/Users/brest/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.17-16.34.06:398][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brest/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.17-16.34.06:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/ISTA451/3DGame/Exploration/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.17-16.34.06:398][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.17-16.34.06:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev/ISTA451/3DGame/Exploration/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.17-16.34.06:399][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.17-16.34.06:429][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.17-16.34.06:442][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brest/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.17-16.34.06:442][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.17-16.34.06:442][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.17-16.34.06:469][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.17-16.34.06:478][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.17-16.34.06:506][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.17-16.34.06:944][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
-[2018.10.17-16.34.07:449][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-16.34.07:989][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.17-16.34.08:051][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.17-16.34.08:052][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.17-16.34.08:052][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.17-16.34.08:052][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.17-16.34.08:139][  0]LogNetVersion: Exploration 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3404714051)
-[2018.10.17-16.34.10:017][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.182358 seconds
-[2018.10.17-16.34.10:025][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.17-16.34.10:025][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.10.17-16.34.10:025][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.17-16.34.16:066][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.17-16.34.16:098][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.17-16.34.17:285][  0]SourceControl: Source control is disabled
-[2018.10.17-16.34.17:287][  0]SourceControl: Source control is disabled
-[2018.10.17-16.34.17:345][  0]SourceControl: Source control is disabled
-[2018.10.17-16.34.17:386][  0]SourceControl: Source control is disabled
-[2018.10.17-16.34.18:385][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.17-16.34.18:568][  0]LogOcInput: OculusInput pre-init called
-[2018.10.17-16.34.18:809][  0]LogEngine: Initializing Engine...
-[2018.10.17-16.34.18:811][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.17-16.34.18:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2018.10.17-16.34.18:815][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-16.34.18:815][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.17-16.34.18:815][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-16.34.19:304][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.17-16.34.19:372][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.17-16.34.19:402][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-16.34.19:813][  0]LogInit: FAudioDevice initialized.
-[2018.10.17-16.34.19:814][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.17-16.34.19:916][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/brest/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.17-16.34.19:931][  0]LogInit: Texture streaming: Enabled
-[2018.10.17-16.34.20:014][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.17-16.34.20:053][  0]LogInit: Transaction tracking system initialized
-[2018.10.17-16.34.20:222][  0]BlueprintLog: New page: Editor Load
-[2018.10.17-16.34.20:823][  0]LocalizationService: Localization service is disabled
-[2018.10.17-16.34.21:905][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.17-16.34.21:906][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.17-16.34.21:908][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Content/' took 0.02s
-[2018.10.17-16.34.21:908][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.17-16.34.21:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.17-16.34.21:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-16.34.21:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.17-16.34.21:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-16.34.22:733][  0]SourceControl: Source control is disabled
-[2018.10.17-16.34.22:734][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.17-16.34.22:737][  0]LightingResults: New page: Lighting Build
-[2018.10.17-16.34.22:749][  0]MapCheck: New page: Map Check
-[2018.10.17-16.34.22:749][  0]LightingResults: New page: Lighting Build
-[2018.10.17-16.34.23:799][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.10.17-16.34.23:848][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.17-16.34.23:890][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.17-16.34.23:982][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.575ms to complete.
-[2018.10.17-16.34.23:982][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.250
-[2018.10.17-16.34.24:174][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.34.24:182][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.34.24:190][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.34.24:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.34.24:265][  0]LogCollectionManager: Loaded 0 collections in 0.001412 seconds
-[2018.10.17-16.34.24:315][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Saved/Collections/' took 0.01s
-[2018.10.17-16.34.24:315][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Content/Developers/brest/Collections/' took 0.01s
-[2018.10.17-16.34.24:315][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Content/Collections/' took 0.01s
-[2018.10.17-16.34.24:315][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.17-16.34.24:325][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2574 classes and 606 folders.
-[2018.10.17-16.34.24:336][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.17-16.34.24:881][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.17-16.34.24:903][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.10.17-16.34.24:977][  0]LogSlate: Took 0.007987 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.17-16.34.24:992][  0]LogSlate: Took 0.010925 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.17-16.34.25:007][  0]LogSlate: Took 0.005698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.17-16.34.25:191][  0]LogRenderer: Reallocating scene render targets to support 1048x420 Format 10 NumSamples 1 (Frame:1).
-[2018.10.17-16.34.25:424][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.17-16.34.25:425][  0]LogLoad: (Engine Initialization) Total time: 39.65 seconds
-[2018.10.17-16.34.25:425][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.17-16.34.25:470][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.17-16.34.25:522][  0]LogSlate: Took 0.006249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-16.34.25:563][  1]LogAssetRegistry: Asset discovery search completed in 18.6427 seconds
-[2018.10.17-16.34.25:565][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.17-16.34.25:565][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000384 seconds (updated 0 objects)
-[2018.10.17-16.34.25:841][  5]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+[2018.10.18-16.54.19:051][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-16.54.19:052][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.18-16.54.19:121][  0]LogHAL: Display: Platform has ~ 8 GB [8445386752 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.18-16.54.19:121][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.18-16.54.19:122][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.18-16.54.19:138][  0]LogInit: Computer: DESKTOP-HL78CGT
+[2018.10.18-16.54.19:138][  0]LogInit: User: brest
+[2018.10.18-16.54.19:138][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.18-16.54.19:138][  0]LogInit: High frequency timer resolution =2.437500 MHz
+[2018.10.18-16.54.19:139][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.10.18-16.54.19:139][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.18-16.54.19:139][  0]LogMemory: Process Physical Memory: 102.67 MB used, 102.67 MB peak
+[2018.10.18-16.54.19:139][  0]LogMemory: Process Virtual Memory: 84.42 MB used, 84.42 MB peak
+[2018.10.18-16.54.19:139][  0]LogMemory: Physical Memory: 4016.68 MB used,  4037.46 MB free, 8054.15 MB total
+[2018.10.18-16.54.19:139][  0]LogMemory: Virtual Memory: 4620.89 MB used,  4037.46 MB free, 134217728.00 MB total
+[2018.10.18-16.54.19:658][  0]LogInit: Using OS detected language (en-US).
+[2018.10.18-16.54.19:658][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.18-16.54.19:669][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.18-16.54.20:586][  0]LogStreaming: Display: Took  0.927s to InitEngineTextLocalization.
+[2018.10.18-16.54.20:714][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.18-16.54.20:714][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.18-16.54.24:682][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.18-16.54.24:682][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.18-16.54.24:753][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.10.18-16.54.24:753][  0]LogD3D11RHI:       4049/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.18-16.54.24:776][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.18-16.54.24:776][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.18-16.54.24:779][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.18-16.54.24:779][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.18-16.54.24:779][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.18-16.54.24:809][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.18-16.54.24:809][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2018.10.18-16.54.24:810][  0]LogWindows: EnumDisplayDevices:
+[2018.10.18-16.54.24:810][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.10.18-16.54.24:810][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.18-16.54.24:811][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.18-16.54.24:811][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.18-16.54.24:811][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.10.18-16.54.24:811][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.18-16.54.24:811][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.18-16.54.24:811][  0]LogRHI: Texture pool is 2834 MB (70% of 4049 MB)
+[2018.10.18-16.54.24:852][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.18-16.54.24:892][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.18-16.54.24:901][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../GameDev/ISTA451/3DGame/Exploration/Intermediate/Shaders/WorkingDirectory/11224/).
+[2018.10.18-16.54.24:901][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brest/AppData/Local/Temp/UnrealShaderWorkingDir/E8A00EB447F209144066618B8067D64E/'.
+[2018.10.18-16.54.25:696][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.18-16.54.25:729][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.18-16.54.25:760][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.18-16.54.25:792][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.18-16.54.25:833][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.18-16.54.25:871][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.18-16.54.25:908][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.18-16.54.25:952][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.18-16.54.25:983][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-16.54.26:164][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.18-16.54.26:328][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-16.54.26:328][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-16.54.26:419][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-16.54.26:419][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-16.54.26:476][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.18-16.54.26:536][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.18-16.54.26:584][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.18-16.54.26:643][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.18-16.54.26:685][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.18-16.54.26:685][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.18-16.54.27:286][  0]LogXGEController: Cleaning working directory: C:/Users/brest/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.18-16.54.27:287][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.18-16.54.27:287][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.18-16.54.27:287][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.18-16.54.32:022][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.18-16.54.32:767][  0]LogDerivedDataCache: Loaded boot cache 0.74s 71MB C:/Users/brest/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.18-16.54.32:769][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brest/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.18-16.54.32:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/ISTA451/3DGame/Exploration/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.18-16.54.32:769][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.18-16.54.32:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev/ISTA451/3DGame/Exploration/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.18-16.54.32:769][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.18-16.54.32:831][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.18-16.54.32:846][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brest/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.18-16.54.32:846][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.18-16.54.32:846][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.18-16.54.32:903][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.18-16.54.32:918][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.18-16.54.32:961][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-16.54.33:793][  0]LogAssetRegistry: FAssetRegistry took 0.0418 seconds to start up
+[2018.10.18-16.54.34:833][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-16.54.35:694][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.18-16.54.35:804][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.18-16.54.35:805][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.18-16.54.35:806][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.18-16.54.35:806][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.18-16.54.35:966][  0]LogNetVersion: Exploration 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3404714051)
+[2018.10.18-16.54.39:316][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.179287 seconds
+[2018.10.18-16.54.39:330][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.18-16.54.39:330][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.18-16.54.39:330][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.18-16.54.46:539][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.18-16.54.46:572][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.18-16.54.47:205][  0]SourceControl: Source control is disabled
+[2018.10.18-16.54.47:206][  0]SourceControl: Source control is disabled
+[2018.10.18-16.54.47:239][  0]SourceControl: Source control is disabled
+[2018.10.18-16.54.47:261][  0]SourceControl: Source control is disabled
+[2018.10.18-16.54.48:203][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.18-16.54.48:354][  0]LogOcInput: OculusInput pre-init called
+[2018.10.18-16.54.48:573][  0]LogEngine: Initializing Engine...
+[2018.10.18-16.54.48:575][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.18-16.54.48:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2018.10.18-16.54.48:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-16.54.48:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.18-16.54.48:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-16.54.49:049][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.18-16.54.49:114][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.18-16.54.49:143][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-16.54.49:556][  0]LogInit: FAudioDevice initialized.
+[2018.10.18-16.54.49:556][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.18-16.54.49:646][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/brest/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.18-16.54.49:658][  0]LogInit: Texture streaming: Enabled
+[2018.10.18-16.54.49:734][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.18-16.54.49:766][  0]LogInit: Transaction tracking system initialized
+[2018.10.18-16.54.49:887][  0]BlueprintLog: New page: Editor Load
+[2018.10.18-16.54.50:413][  0]LocalizationService: Localization service is disabled
+[2018.10.18-16.54.51:380][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.18-16.54.51:381][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Content/' took 0.02s
+[2018.10.18-16.54.51:381][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.18-16.54.51:381][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.18-16.54.51:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.18-16.54.51:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-16.54.51:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.18-16.54.51:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-16.54.52:140][  0]SourceControl: Source control is disabled
+[2018.10.18-16.54.52:142][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-16.54.52:144][  0]LightingResults: New page: Lighting Build
+[2018.10.18-16.54.52:156][  0]MapCheck: New page: Map Check
+[2018.10.18-16.54.52:156][  0]LightingResults: New page: Lighting Build
+[2018.10.18-16.54.53:306][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.18-16.54.53:363][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-16.54.53:399][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-16.54.53:478][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.889ms to complete.
+[2018.10.18-16.54.53:478][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.338
+[2018.10.18-16.54.53:670][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-16.54.53:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-16.54.53:689][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-16.54.53:697][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-16.54.53:753][  0]LogCollectionManager: Loaded 0 collections in 0.001611 seconds
+[2018.10.18-16.54.53:803][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Saved/Collections/' took 0.01s
+[2018.10.18-16.54.53:803][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Content/Developers/brest/Collections/' took 0.01s
+[2018.10.18-16.54.53:803][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/ISTA451/3DGame/Exploration/Content/Collections/' took 0.01s
+[2018.10.18-16.54.53:803][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.18-16.54.53:816][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2574 classes and 606 folders.
+[2018.10.18-16.54.53:825][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.18-16.54.54:428][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.18-16.54.54:461][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.18-16.54.54:557][  0]LogSlate: Took 0.007070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.18-16.54.54:569][  0]LogSlate: Took 0.005867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.18-16.54.54:584][  0]LogSlate: Took 0.006755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.18-16.54.54:744][  0]LogRenderer: Reallocating scene render targets to support 1048x420 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-16.54.55:021][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.18-16.54.55:021][  0]LogLoad: (Engine Initialization) Total time: 49.35 seconds
+[2018.10.18-16.54.55:021][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.18-16.54.55:071][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.18-16.54.55:129][  0]LogSlate: Took 0.006929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.18-16.54.55:182][  1]LogAssetRegistry: Asset discovery search completed in 21.4137 seconds
+[2018.10.18-16.54.55:185][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.18-16.54.55:185][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000547 seconds (updated 0 objects)
+[2018.10.18-16.54.56:176][  4]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
 	Player_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.34.26:465][ 41]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-16.34.42:697][ 14]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2018.10.17-16.34.43:768][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-16.34.44:986][130]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2018.10.17-16.34.45:798][130]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.10.17-16.34.46:812][130]LogSlate: Took 0.005256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.17-16.34.47:224][131]LogSlate: Took 0.007936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.17-16.34.52:608][424]LogRenderer: Reallocating scene render targets to support 1312x524 Format 10 NumSamples 1 (Frame:1639).
-[2018.10.17-16.36.10:316][889]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.10.17-16.36.12:125][938]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacterCA79F6274FF2BB62E6150A8A1F09DB89.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.10.17-16.36.20:417][407]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP
-[2018.10.17-16.36.20:495][407]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.10.17-16.36.20:919][407]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.10.17-16.36.20:920][407]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.20:966][407]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
-[2018.10.17-16.36.21:877][407]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.21:959][407]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2018.10.17-16.36.22:088][408]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:111][409]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:138][410]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:154][411]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:172][412]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:189][413]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:206][414]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:223][415]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:239][416]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:256][417]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:272][418]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:289][419]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:306][420]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.36.22:322][421]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_0
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:110][509]BlueprintLog: New page: Compile Player_AnimBP
-[2018.10.17-16.37.15:152][509]LogBlueprint: Warning: [Compiler Player_AnimBP] Drop to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition
-[2018.10.17-16.37.15:160][509]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:160][509]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:339][509]LogBlueprint: Warning: [Compiler Player_AnimBP] [0209.57] Compile of Player_AnimBP successful, but with 1 Warning(s) [in 228 ms] (/Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP)
-[2018.10.17-16.37.15:342][509]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:387][510]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:404][511]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:421][512]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:438][513]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:454][514]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:471][515]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:487][516]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:503][517]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:520][518]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:536][519]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:553][520]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:570][521]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:585][522]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:602][523]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_1
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:019E
-[2018.10.17-16.37.15:787][525]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/Player_AnimBPF6B10F8B4D54FE3422502EAFC5C35B42.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.uasset'
-[2018.10.17-16.37.31:685][451]BlueprintLog: New page: Compile Player_AnimBP
-[2018.10.17-16.37.31:736][451]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_2
 	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.31:736][451]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.31:903][451]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.31:930][452]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.31:947][453]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.31:963][454]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.31:981][455]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.31:996][456]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:014][457]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:029][458]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:047][459]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:062][460]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:078][461]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:095][462]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:111][463]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:128][464]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:144][465]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_2
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.32:303][466]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/Player_AnimBP4BE44EFB482EADDD428267AA21B2A7F7.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.uasset'
-[2018.10.17-16.37.41:274][  3]BlueprintLog: New page: Compile Player_AnimBP
-[2018.10.17-16.37.41:326][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:327][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:496][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:521][  4]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:540][  5]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:555][  6]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:573][  7]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:588][  8]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:606][  9]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:621][ 10]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:638][ 11]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:653][ 12]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:671][ 13]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:687][ 14]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:703][ 15]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:720][ 16]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:736][ 17]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_3
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.41:924][ 20]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/Player_AnimBPF8B2668048FF882D4E6438821D0243CB.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.uasset'
-[2018.10.17-16.37.50:732][547]BlueprintLog: New page: Compile Player_AnimBP
-[2018.10.17-16.37.50:781][547]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.50:782][547]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.50:941][547]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.50:966][548]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.50:985][549]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:001][550]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:018][551]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:033][552]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:051][553]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:067][554]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:084][555]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:098][556]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:116][557]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:133][558]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:149][559]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:165][560]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:182][561]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_4
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.51:422][567]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/Player_AnimBP8A8E9F2941D1B40AEC7264BF6518FD5F.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.uasset'
-[2018.10.17-16.37.56:085][836]BlueprintLog: New page: Compile Player_AnimBP
-[2018.10.17-16.37.56:135][836]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:136][836]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:303][836]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:348][837]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:365][838]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:381][839]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:398][840]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:415][841]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:433][842]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:447][843]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:463][844]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:479][845]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:497][846]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:513][847]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:670][848]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/Player_AnimBP89B263CA4582361A583B0CB93DCD255D.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.uasset'
-[2018.10.17-16.37.56:680][848]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:687][849]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.37.56:704][850]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_5
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:446][193]BlueprintLog: New page: Compile Player_AnimBP
-[2018.10.17-16.38.02:499][193]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:500][193]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:668][193]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:694][194]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:711][195]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:730][196]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:744][197]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:764][198]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:776][199]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:796][200]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:808][201]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:827][202]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:842][203]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:860][204]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:877][205]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:893][206]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.02:908][207]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	Player_AnimBP_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Player_AnimBP_C_6
-	Function /Game/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.Player_AnimBP_C:ExecuteUbergraph_Player_AnimBP:01C7
-[2018.10.17-16.38.03:078][209]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/Player_AnimBP7CC0ACBA431BC52EB6A00A9BFB5522BA.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/Animation/Player_AnimBP.uasset'
-[2018.10.17-16.38.14:675][887]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonExampleMap7BAB9D56427FE68CAFD59CA5336CBAF4.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.10.17-16.38.14:778][887]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonExampleMap_BuiltData9C50F92642713819544EA39BD89A07BE.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.10.17-16.38.41:645][411]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.10.17-16.38.42:319][412]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacterF32D2CD1423AC09DD63169BA253E5D60.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.10.17-16.38.45:418][596]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.10.17-16.38.46:171][600]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacter73433ED84D9FD477831C1183A1F87056.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.10.17-16.38.48:780][691]LogSlate: Window 'Save Content' being destroyed
-[2018.10.17-16.38.51:543][691]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonExampleMapE088529C477E01EE660EDDA6D21C44EB.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.10.17-16.38.51:594][691]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.781
-[2018.10.17-16.38.52:052][717]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-16.38.52:098][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.38.52:099][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-16.38.52:130][717]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 17, 2018, 4:38:52 AM)
-[2018.10.17-16.38.52:131][717]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.10.17-16.38.52:173][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041842s)
-[2018.10.17-16.38.52:175][717]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.10.17-16.38.52:176][717]LogPlayLevel: PIE: World Init took: (0.003094s)
-[2018.10.17-16.38.52:177][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.045757s)
-[2018.10.17-16.38.52:268][717]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-16.38.52:372][717]LogInit: FAudioDevice initialized.
-[2018.10.17-16.38.52:434][717]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-16.38.52:441][717]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.17-10.38.52
-[2018.10.17-16.38.52:447][717]LogWorld: Bringing up level for play took: 0.009772
-[2018.10.17-16.38.52:575][717]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
-[2018.10.17-16.38.52:581][717]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.136
-[2018.10.17-16.38.52:581][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.39.08:881][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.39.08:884][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.39.08:930][690]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-16.39.08:930][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.39.08:978][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.39.09:013][691]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2018.10.17-16.39.10:056][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-16.39.21:036][401]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.10.17-16.39.22:984][485]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacterC5B8ABD54F2DCECC6AD11E940597907F.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.10.17-16.39.26:048][654]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonExampleMap7D539E2C4B6875EF19E1AB98875F6B04.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.10.17-16.39.26:130][654]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonExampleMap_BuiltDataE7A08A25489284531306F6A38A91F349.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.10.17-16.39.48:312][964]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.10.17-16.39.48:914][969]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacter67F32BA04B2ED56F5A344C95F7FDD547.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.10.17-16.39.49:356][994]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-16.39.49:403][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.39.49:404][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-16.39.49:404][994]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 17, 2018, 4:39:49 AM)
-[2018.10.17-16.39.49:404][994]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.10.17-16.39.49:417][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012028s)
-[2018.10.17-16.39.49:417][994]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.10.17-16.39.49:417][994]LogPlayLevel: PIE: World Init took: (0.000967s)
-[2018.10.17-16.39.49:417][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013196s)
-[2018.10.17-16.39.49:457][994]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-16.39.49:528][994]LogInit: FAudioDevice initialized.
-[2018.10.17-16.39.49:541][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.39.49:702][994]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-16.39.49:704][994]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.17-10.39.49
-[2018.10.17-16.39.49:705][994]LogWorld: Bringing up level for play took: 0.001344
-[2018.10.17-16.39.49:718][994]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.10.17-16.39.49:720][994]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.275
-[2018.10.17-16.39.49:720][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.39.49:868][994]LogRenderer: Reallocating scene render targets to support 1312x576 Format 10 NumSamples 1 (Frame:1).
-[2018.10.17-16.40.00:462][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.40.00:462][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-16.40.00:486][626]LogSlate: Window 'Exploration Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.10.17-16.40.00:543][626]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-16.40.00:544][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.10.17-16.40.00:711][627]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2018.10.17-16.40.03:701][749]LogSlate: Window 'Save Content' being destroyed
-[2018.10.17-16.40.04:004][749]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonExampleMap1FB0E699409A628A6FF3F5943565D886.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.10.17-16.40.04:051][749]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.323
+[2018.10.18-16.54.56:513][  5]LogSlate: Took 0.000438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.18-16.55.06:094][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-16.55.07:785][158]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-16.55.07:805][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-16.55.07:805][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-16.55.07:823][158]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 18, 2018, 4:55:07 AM)
+[2018.10.18-16.55.07:823][158]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.18-16.55.07:847][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023887s)
+[2018.10.18-16.55.07:848][158]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.18-16.55.07:848][158]LogPlayLevel: PIE: World Init took: (0.001492s)
+[2018.10.18-16.55.07:849][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025694s)
+[2018.10.18-16.55.07:873][158]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-16.55.07:959][158]LogInit: FAudioDevice initialized.
+[2018.10.18-16.55.08:015][158]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.18-16.55.08:023][158]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.18-10.55.08
+[2018.10.18-16.55.08:025][158]LogWorld: Bringing up level for play took: 0.004857
+[2018.10.18-16.55.08:053][158]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.10.18-16.55.08:055][158]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.091
+[2018.10.18-16.55.08:057][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-16.55.14:118][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-16.55.14:186][496]LogRenderer: Reallocating scene render targets to support 1048x424 Format 10 NumSamples 1 (Frame:339).
+[2018.10.18-16.55.14:229][497]LogRenderer: Reallocating scene render targets to support 1048x428 Format 10 NumSamples 1 (Frame:340).
+[2018.10.18-16.55.14:265][498]LogRenderer: Reallocating scene render targets to support 1048x440 Format 10 NumSamples 1 (Frame:341).
+[2018.10.18-16.55.14:309][499]LogRenderer: Reallocating scene render targets to support 1048x460 Format 10 NumSamples 1 (Frame:342).
+[2018.10.18-16.55.14:355][500]LogRenderer: Reallocating scene render targets to support 1048x468 Format 10 NumSamples 1 (Frame:343).
+[2018.10.18-16.55.14:402][501]LogRenderer: Reallocating scene render targets to support 1048x480 Format 10 NumSamples 1 (Frame:344).
+[2018.10.18-16.55.14:437][502]LogRenderer: Reallocating scene render targets to support 1048x488 Format 10 NumSamples 1 (Frame:345).
+[2018.10.18-16.55.14:521][506]LogRenderer: Reallocating scene render targets to support 1048x492 Format 10 NumSamples 1 (Frame:346).
+[2018.10.18-16.55.14:557][507]LogRenderer: Reallocating scene render targets to support 1048x496 Format 10 NumSamples 1 (Frame:347).
+[2018.10.18-16.55.14:595][508]LogRenderer: Reallocating scene render targets to support 1048x500 Format 10 NumSamples 1 (Frame:348).
+[2018.10.18-16.55.14:629][509]LogRenderer: Reallocating scene render targets to support 1048x504 Format 10 NumSamples 1 (Frame:349).
+[2018.10.18-16.55.14:663][510]LogRenderer: Reallocating scene render targets to support 1048x508 Format 10 NumSamples 1 (Frame:350).
+[2018.10.18-16.55.14:744][512]LogRenderer: Reallocating scene render targets to support 1048x516 Format 10 NumSamples 1 (Frame:352).
+[2018.10.18-16.55.14:779][513]LogRenderer: Reallocating scene render targets to support 1048x520 Format 10 NumSamples 1 (Frame:353).
+[2018.10.18-16.55.14:850][515]LogRenderer: Reallocating scene render targets to support 1048x524 Format 10 NumSamples 1 (Frame:355).
+[2018.10.18-16.55.14:925][517]LogRenderer: Reallocating scene render targets to support 1048x528 Format 10 NumSamples 1 (Frame:357).
+[2018.10.18-16.55.14:960][518]LogRenderer: Reallocating scene render targets to support 1048x532 Format 10 NumSamples 1 (Frame:358).
+[2018.10.18-16.55.14:998][519]LogRenderer: Reallocating scene render targets to support 1048x536 Format 10 NumSamples 1 (Frame:359).
+[2018.10.18-16.55.15:036][520]LogRenderer: Reallocating scene render targets to support 1048x540 Format 10 NumSamples 1 (Frame:360).
+[2018.10.18-16.55.15:073][521]LogRenderer: Reallocating scene render targets to support 1048x544 Format 10 NumSamples 1 (Frame:361).
+[2018.10.18-16.55.17:380][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-16.56.24:365][671]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-16.56.24:369][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-16.56.24:438][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-16.56.24:438][671]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-16.56.24:488][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-16.56.24:525][672]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.18-16.56.25:477][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-16.56.25:639][734]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/ThirdPersonBP/Blueprints/Animation/Player_Skeleton.Player_Skeleton
+[2018.10.18-16.56.25:675][734]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.18-16.56.26:030][734]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.18-16.56.26:039][734]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.10.18-16.56.26:512][734]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.10.18-16.56.26:534][735]LogRenderer: Reallocating scene render targets to support 1048x672 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-16.56.31:171][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-16.56.35:847][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-16.56.42:062][632]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.18-16.56.42:726][632]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.10.18-16.56.43:676][632]LogSlate: Took 0.007892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.18-16.56.44:074][633]LogSlate: Took 0.007680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.18-16.58.22:681][940]LogSlate: Window 'Save Content' being destroyed
+[2018.10.18-16.58.22:888][940]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacterE1B6AFC9479C5D526B78948B2699D55A.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.18-17.03.55:054][968]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-17.03.55:078][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.03.55:078][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-17.03.55:078][968]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 18, 2018, 5:03:55 AM)
+[2018.10.18-17.03.55:078][968]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.18-17.03.55:094][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015171s)
+[2018.10.18-17.03.55:095][968]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.18-17.03.55:095][968]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2018.10.18-17.03.55:095][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016646s)
+[2018.10.18-17.03.55:134][968]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-17.03.55:214][968]LogInit: FAudioDevice initialized.
+[2018.10.18-17.03.55:254][968]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.18-17.03.55:258][968]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.18-11.03.55
+[2018.10.18-17.03.55:258][968]LogWorld: Bringing up level for play took: 0.002686
+[2018.10.18-17.03.55:273][968]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.308
+[2018.10.18-17.03.55:274][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.04.39:754][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.04.39:754][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-17.04.39:807][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-17.04.39:807][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.04.39:844][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-17.04.39:874][635]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.18-17.04.41:943][759]LogEditorViewport: Clicking on Actor (LMB): Obelisk_Interactive_C (Obelisk_Interactive)
+[2018.10.18-17.04.42:804][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-17.04.51:393][304]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.18-17.04.52:062][305]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacterBEFCBB3B4E8345EB0C8C98A621AC17B9.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.18-17.04.52:563][333]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-17.04.52:607][333]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.04.52:607][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-17.04.52:608][333]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 18, 2018, 5:04:52 AM)
+[2018.10.18-17.04.52:608][333]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.18-17.04.52:620][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012466s)
+[2018.10.18-17.04.52:621][333]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.18-17.04.52:621][333]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2018.10.18-17.04.52:621][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013590s)
+[2018.10.18-17.04.52:658][333]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.18-17.04.52:737][333]LogInit: FAudioDevice initialized.
+[2018.10.18-17.04.52:749][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-17.04.52:833][333]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.18-17.04.52:835][333]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.10.18-11.04.52
+[2018.10.18-17.04.52:835][333]LogWorld: Bringing up level for play took: 0.001350
+[2018.10.18-17.04.52:849][333]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.18-17.04.52:851][333]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.115
+[2018.10.18-17.04.52:851][333]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.05.05:624][ 79]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.05.05:624][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-17.05.05:649][ 79]LogSlate: Window 'Exploration Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.18-17.05.05:703][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-17.05.05:704][ 79]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.18-17.05.06:004][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.18-17.05.13:095][502]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.18-17.05.13:837][510]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonCharacter6DE0E2894633A06A74156C95392FBC25.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.18-17.05.18:770][752]LogSlate: Window 'Save Content' being destroyed
+[2018.10.18-17.05.19:074][752]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonExampleMap5069EB4945F6112D3E4E92AAA89D5A5D.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.18-17.05.19:117][752]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.322
+[2018.10.18-17.07.23:656][931]LogEditorViewport: Clicking on Actor (LMB): Obelisk_Interactive_C (Obelisk_Interactive)
+[2018.10.18-17.07.56:596][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-17.08.27:199][179]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.18-17.08.38:904][872]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/P_GameState.P_GameState
+[2018.10.18-17.08.40:526][938]LogSlate: Window 'P_GameState*' being destroyed
+[2018.10.18-17.08.40:557][938]LogRenderer: Reallocating scene render targets to support 1312x672 Format 10 NumSamples 1 (Frame:9620).
+[2018.10.18-17.08.44:106][ 75]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.18-17.08.44:160][ 75]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Exploration
+[2018.10.18-17.08.44:160][ 75]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.18-17.08.44:160][ 75]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.18-17.08.44:160][ 75]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.18-17.08.44:167][ 75]LogTemp: BranchPath = DESKTOP-HL78CGT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-HL78CGT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.18-17.08.44:188][ 75]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\brest\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.18-17.09.00:360][ 43]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.18-17.09.18:628][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/P_GameState" FILE="../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/P_GameState.uasset" SILENT=true
+[2018.10.18-17.09.18:644][114]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/P_GameStateB406EB4D4A8D5E1C82F775BF441DCF09.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/P_GameState.uasset'
+[2018.10.18-17.09.32:405][935]LogSlate: Took 0.005002 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.18-17.12.54:821][ 76]BlueprintLog: New page: Compile P_GameState
+[2018.10.18-17.12.56:105][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/P_GameState" FILE="../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/P_GameState.uasset" SILENT=true
+[2018.10.18-17.12.56:133][142]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/P_GameState1072D9D4497F11A4050DF59F4D534F61.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/P_GameState.uasset'
+[2018.10.18-17.13.09:735][874]LogSlate: Window 'Save Content' being destroyed
+[2018.10.18-17.13.09:782][874]LogSavePackage: Moving '../../../../../../GameDev/ISTA451/3DGame/Exploration/Saved/ThirdPersonGameMode8323A0F348EF489822A440A21B2064A9.tmp' to '../../../../../../GameDev/ISTA451/3DGame/Exploration/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2018.10.18-17.23.13:120][507]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.18-17.23.15:167][518]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.18-17.23.17:209][530]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.18-18.08.03:322][541]LogHttp: Warning: 000001DC7F284A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.10.18-18.08.03:322][541]LogHttp: Warning: 000001DC7F284A40: libcurl info message cache 0 (Connection 10 seems to be dead!)
+[2018.10.18-18.08.03:322][541]LogHttp: Warning: 000001DC7F284A40: libcurl info message cache 1 (Closing connection 10)
+[2018.10.18-18.08.03:322][541]LogHttp: Warning: 000001DC7F284A40: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.10.18-18.08.03:322][541]LogHttp: Warning: 000001DC7F284A40: libcurl info message cache 3 (Closing connection 11)
+[2018.10.18-18.08.08:616][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.18-18.08.08:665][636]LogSlate: Window 'Exploration - Unreal Editor' being destroyed
+[2018.10.18-18.08.08:926][637]Cmd: QUIT_EDITOR
+[2018.10.18-18.08.09:377][637]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.18-18.08.09:392][637]LogExit: Preparing to exit.
